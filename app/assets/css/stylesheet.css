@@ -6389,7 +6389,6 @@ a:focus {
   text-transform: uppercase;
 }
 h1,
-h2,
 h3,
 h4,
 h5 {
@@ -7913,7 +7912,7 @@ header .avatar:after {
   right: -10px;
 }
 .portfolio-holder .portfolio-item .category:before {
-  background-color: #479683;
+  background-color: #4CA2CF;
   -webkit-transform: skewX(-8deg) skewY(0deg) rotate(-2deg) !important;
   -ms-transform: skewX(-8deg) skewY(0deg) rotate(-2deg) !important;
   -o-transform: skewX(-8deg) skewY(0deg) rotate(-2deg) !important;
@@ -8043,6 +8042,7 @@ header .avatar:after {
 .single-post .sticky-paper-body .single-post .post-image {
   text-align: center;
   position: relative;
+  min-height:570px;
 }
 .single-post .sticky-paper-body .single-post .post-image h1,
 .single-post .sticky-paper-body .single-post .post-image .date,
@@ -8064,11 +8064,12 @@ header .avatar:after {
   text-transform: uppercase;
   font-size: 25px;
   line-height: 40px;
-  padding-bottom: 5px;
+  padding-bottom: 25px;
   font-weight: 800!important;
   left: 0;
-  top: 0;
+  bottom: 0;
   padding: 0px 10px;
+  margin-bottom:20px;
 }
 .single-post .sticky-paper-body .single-post .post-image .date {
   position: absolute;
@@ -8493,4 +8494,15 @@ select.top-drop-menu {
 
 #email {
   padding-left:0px;
+}
+
+
+a.prettyLink {
+  border: 0 solid !important;
+  border-radius: 0px !important;
+  min-height: 0px !important;
+  background-color: transparent !important;
+  color: black!important;
+  height: 45px;
+  margin-top: -15px;
 }
