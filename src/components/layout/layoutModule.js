@@ -22,6 +22,14 @@ define([
                     root: {
                         templateUrl: 'components/layout/layoutView.html',
                         controllerAs:'layoutController'
+                    },
+                    header: {
+                        templateUrl: 'components/header/headerView.html',
+                        controllerAs:'headerController'
+                    },
+                    footer: {
+                        templateUrl: 'components/footer/footerView.html',
+                        controllerAs:'footerController'
                     }
                 }
             });

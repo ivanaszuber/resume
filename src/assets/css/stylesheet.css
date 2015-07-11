@@ -1485,7 +1485,7 @@ pre code {
   width: 41.66666667%;
 }
 .col-xs-4 {
-  width: 33.33333333%;
+  width: 32.33333333%;
 }
 .col-xs-3 {
   width: 25%;
@@ -1958,7 +1958,7 @@ pre code {
     width: 41.66666667%;
   }
   .col-lg-4 {
-    width: 33.33333333%;
+    width: 32.33333333%;
   }
   .col-lg-3 {
     width: 25%;
@@ -7128,10 +7128,10 @@ header .avatar {
   margin: auto;
 }
 header .avatar:hover {
-  color: #BE1E2D;
+  color: #4CA2CF;
   border: 10px solid #847066;
   background-color: #d8cdbb;
-  border-color: #BE1E2D;
+  border-color: #4CA2CF;
 }
 header .avatar:before {
   position: absolute;

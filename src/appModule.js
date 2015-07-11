@@ -7,7 +7,19 @@ define([
 
     'angular',
     'angular-couch-potato',
-    'angular-ui-router'
+    'angular-ui-router',
+    'jquery.migrate',
+    'browser-selector',
+    'jquery.easing',
+    'jquery.prettyPhoto',
+    'jquery.validate',
+    'jquery.address',
+    'jquery.isotope',
+    'jquery.circliful',
+    'wow',
+    'jquery.circliful',
+    'script'
+
 ], function (ng, couchPotato) {
 
     var appModule = ng.module('appModule', [
@@ -19,8 +31,16 @@ define([
 
     couchPotato.configureApp(appModule);
 
-    appModule.config(function ($provide, $httpProvider) {
-
+    appModule.config(function ($stateProvider) {
+        $stateProvider
+            .state('home', {
+                url:'/',
+                views: {
+                    root: {
+                        templateUrl: 'interfaces/management/manageView.html'
+                    }
+                }
+            })
     });
 
     appModule.run(function ($couchPotato, $rootScope, $state, $stateParams) {
