@@ -6,8 +6,8 @@ require('phpmailer/class.smtp.php');
 
 /* config start */
 
-$emailAddress = 'you@gmail.com';
-$fromName="example company";
+$emailAddress = 'ivanas.zuber@gmail.com';
+$fromName="Ivana's Resume";
 $smtp=false;
 
 /* NOTE: IF YOU RECIEVED THIS MESSAGE "Error Occured:Could not instantiate mail function." YOU SHOULD SET SMTP CONFIG
@@ -46,8 +46,8 @@ $mail->Port       = 465;
 // used only when SMTP requires authentication  
 
 $mail->SMTPAuth = true;
-$mail->Username = 'GMAIL USERNAME';
-$mail->Password = 'YOUR GMAIL PASSWORD';
+$mail->Username = 'ivanas.zuber@gmail.com';
+$mail->Password = 'ZaRa&2612';
 
 }
 
