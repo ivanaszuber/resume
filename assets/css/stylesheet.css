@@ -6656,6 +6656,11 @@ header {
   top: 35px;
   padding: 15px 25px 15px 50px;
 }
+
+.sticky-paper-head.top.has-shadow{
+  top: 95px;
+}
+
 .sticky-paper-head h1 {
   font-weight: 800!important;
   letter-spacing: -1px;
@@ -7282,7 +7287,7 @@ header .avatar:after {
 }
 .top-menu-holder ul {
   margin: 18px 0 0 0;
-  text-align: right;
+  text-align: center;
 }
 .top-menu-holder ul li {
   margin: 0 5px;
