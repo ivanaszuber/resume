@@ -8511,3 +8511,7 @@ a.prettyLink {
   height: 45px;
   margin-top: -15px;
 }
+
+.event-content.timeline-content ul{
+  list-style: none;
+}
