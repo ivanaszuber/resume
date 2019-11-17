@@ -32,11 +32,11 @@ Content Tabel
 
 
 5- Responsive layout
-    
+
 
 6-Browsers Hacks
-   
- 
+
+
 */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
@@ -7498,11 +7498,11 @@ header .avatar:after {
   text-align: center;
 }
 .interests-row.big li {
-  width: 100px;
-  height: 100px;
+  width: 115px;
+  height: 115px;
 }
 .interests-row.big li span {
-  font-size: 16px;
+  font-size: 15px;
   width: 100%;
   height: 16px;
   line-height: 16px;
@@ -7859,6 +7859,8 @@ header .avatar:after {
   -o-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   border: 2px solid #272425;
+  height: 310px;
+  object-fit: cover;
 }
 .portfolio-holder .portfolio-item a:hover {
   background-color: #4CA2CF;
